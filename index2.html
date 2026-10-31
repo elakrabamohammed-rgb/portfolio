@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#home" class="logo">My Portfolio<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#about"
+                   data-en="About"
+                   data-fr="À propos">About</a>
+
+                <a href="#projects"
+                   data-en="Projects"
+                   data-fr="Projets">Projects</a>
+
+                <a href="#contact"
+                   data-en="Contact"
+                   data-fr="Contact">Contact</a>
+
+                <a href="cv.pdf" class="nav-cv" download
+                   data-en="Download CV ↓"
+                   data-fr="Télécharger mon CV ↓">Download CV ↓</a>
+            </div>
+
+            <div class="language-switch" aria-label="Choose language">
+                <button id="english-btn" class="active" type="button"
+                        aria-label="Switch to English">EN</button>
+                <span>|</span>
+                <button id="french-btn" type="button"
+                        aria-label="Passer en français">FR</button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow"
+                   data-en="Aspiring engineer"
+                   data-fr="Futur ingénieur">Aspiring engineer</p>
+
+                <h1 data-en="Hello, I'm <span>Elakraba Mohammed Amine.</span><br>"
+                    data-fr="Bonjour, je suis <span>Elakraba Mohammed Amine.</span><br>">
+                    Hello, I'm <span>Elakraba Mohammed Amine.</span>
+                    <br>
+                </h1>
+
+                <p class="hero-description"
+                   data-en="First year ENSEEIHT student SN (Digital Science)."
+                   data-fr="Étudiant en première année à l'ENSEEIHT, filière SN (Sciences du Numérique).">
+                    First year ENSEEIHT student SN (Science numérique).
+                </p>
+
+            </div>
+
+            <div class="hero-illustration">
+
+                <div class="illustration-circle"></div>
+
+                <div class="illustration-card">
+                    <div class="illustration-top">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="illustration-person">
+                        <div class="person-head"></div>
+                        <div class="person-body"></div>
+                    </div>
+
+                    <div class="illustration-sun"></div>
+                    <div class="illustration-plant plant-one"></div>
+                    <div class="illustration-plant plant-two"></div>
+                </div>
+
+                <div class="floating-note note-one"
+                     data-en="Creative"
+                     data-fr="Créatif">Creative</div>
+
+                <div class="floating-note note-two"
+                     data-en="Always learning"
+                     data-fr="Toujours en apprentissage">Always learning</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="about section-padding" id="about">
+
+            <div class="section-heading">
+                <p class="eyebrow"></p>
+
+                <h2 data-en="Get to know me<span>.</span>"
+                    data-fr="Faisons connaissance<span>.</span>">
+                    Get to know me<span>.</span>
+                </h2>
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <h3 data-en="More than just an SN student."
+                        data-fr="Bien plus qu'un étudiant en SN.">
+                        More than just an SN student.
+                    </h3>
+
+                    <p data-en="Hello! I'm Elakraba Mohammed Amine, and I'm someone who enjoys art, app development as well as learning new skills in hopes of bringing creative projects to life."
+                       data-fr="Bonjour ! Je m'appelle Mon nom et j'aime l'art, le développement d'applications ainsi que l'apprentissage de nouvelles compétences, avec l'envie de donner vie à des projets créatifs.">
+                        Hello! I'm Elakraba Mohammed Amine, and I'm someone who enjoys art, app development as well as learning new skills in hopes of bringing creative projects to life.
+                    </p>
+
+                    <p data-en="I'm interested in discovering new perspectives, developing my abilities and challenging myself through different experiences."
+                       data-fr="J'aime découvrir de nouvelles perspectives, développer mes compétences et me dépasser à travers des expériences variées.">
+                        I'm interested in discovering new perspectives,
+                        developing my abilities and challenging myself
+                        through different experiences.
+                    </p>
+
+                    <p data-en="This portfolio is a little space where I can share my journey, the things I create and what inspires me."
+                       data-fr="Ce portfolio est un petit espace où je peux partager mon parcours, mes créations et les sources de mon inspiration.">
+                        This portfolio is a little space where I can share
+                        my journey, the things I create and what inspires me.
+                    </p>
+
+                </div>
+
+
+                <!-- INTRODUCTION VIDEO -->
+                <div class="video-column">
+
+                    <div class="video-heading">
+                        <p class="eyebrow"></p>
+
+                        <h3 data-en="Meet me in person!"
+                            data-fr="Faisons connaissance en vidéo !">
+                            Meet me in person!
+                        </h3>
+                    </div>
+
+                    <div class="intro-video">
+                        <video controls preload="metadata">
+                            <source src="introduction.mp4" type="video/mp4">
+                            Your browser does not support video playback.
+                        </video>
+                    </div>
+
+                    <p class="video-caption"></p>
+
+                </div>
+
+            </div>
+
+
+            <!-- ACADEMIC BACKGROUND -->
+            <div class="education-section">
+
+                <div class="section-heading">
+                    <p class="eyebrow"></p>
+
+                    <h2 data-en="Academic background<span>.</span>"
+                        data-fr="Parcours académique<span>.</span>">
+                        Academic background<span>.</span>
+                    </h2>
+                </div>
+
+                <div class="education-timeline">
+
+                    <!-- EDUCATION ONE -->
+                    <div class="education-item">
+                        <div class="education-card">
+
+                            <h3 data-en="Engineering – IT."
+                                data-fr="Cycle ingénieur – Informatique.">
+                                Engineering-IT.
+                            </h3>
+
+                            <p class="education-date"
+                               data-en="2026 – 2029: First year (currently)"
+                               data-fr="2026 – 2029 : Première année (en cours)">
+                                2026 – 2029: First year (currently)
+                            </p>
+
+                            <p class="education-description"
+                               data-en="ENSEEIHT – Digital Science."
+                               data-fr="ENSEEIHT – Sciences du Numérique.">
+                                ENSEEIHT-SN.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <!-- EDUCATION TWO -->
+                    <div class="education-item">
+                        <div class="education-card">
+
+                            <h3 data-en="CPGE – MP."
+                                data-fr="Classe préparatoire – Mathématiques et Physique (MP).">
+                                CPGE-MP.
+                            </h3>
+
+                            <p class="education-date">2023 – 2026</p>
+
+                            <p class="education-description">
+                                Lycée Moulay Youssef.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <!-- EDUCATION THREE -->
+                    <div class="education-item">
+                        <div class="education-card">
+
+                            <h3 data-en="Scientific Baccalaureate – Mathematics."
+                                data-fr="Baccalauréat scientifique – Spécialité Mathématiques.">
+                                Scientific Baccalaureate-maths specialty.
+                            </h3>
+
+                            <p class="education-date">2020 – 2023</p>
+
+                            <p class="education-description">
+                                Groupe scolaire Atlas-Rabat.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects section-padding" id="projects">
+
+            <div class="section-heading">
+
+                <p class="eyebrow"
+                   data-en="MY CREATIVE JOURNEY"
+                   data-fr="MON PARCOURS CRÉATIF">MY CREATIVE JOURNEY</p>
+
+                <h2 data-en="Things I've made<span>.</span>"
+                    data-fr="Mes réalisations<span>.</span>">
+                    Things I've made<span>.</span>
+                </h2>
+
+            </div>
+
+            <div class="project-grid">
+
+                <!-- PROJECT ONE -->
+                <a href="project-empty.html" class="project-card">
+
+                    <div class="project-visual visual-one">
+                        <div class="visual-decoration">
+                            <span>01</span>
+                            <div class="decoration-shape"></div>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+
+                        <p class="project-category"
+                           data-en="PROJECT ONE"
+                           data-fr="PROJET 01">PROJECT ONE</p>
+
+                        <h3 data-en="Unnamed chatbot project."
+                            data-fr="Projet de chatbot sans nom.">
+                            Unnamed chatbot project.
+                        </h3>
+
+                        <p data-en="An AI chatbot operating from your desktop, capable of navigating your file directories, launching games and applications, and reading text files aloud. The project is still in its early stages of development."
+                           data-fr="Un chatbot basé sur l'intelligence artificielle, utilisable depuis le bureau, capable de naviguer dans les dossiers, de lancer des jeux et des applications, et de lire des fichiers texte à voix haute. Le projet est encore à ses débuts.">
+                            An AI-chatbot operating from your desktop capable of navigating your file directories, launching games and applications, and reading text files aloud. The project is still in its early stages of development.
+                        </p>
+
+                        <span class="project-link"
+                              data-en="Discover project ↗"
+                              data-fr="Découvrir le projet ↗">
+                            Discover project ↗
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- PROJECT TWO -->
+                <a href="project-empty.html" class="project-card">
+
+                    <div class="project-visual visual-two">
+                        <img src="project-two.PNG" alt="Preview of my second project">
+                    </div>
+
+                    <div class="project-info">
+
+                        <p class="project-category"
+                           data-en="PROJECT TWO"
+                           data-fr="PROJET 02">PROJECT TWO</p>
+
+                        <h3>S.I.N VTT&Compendium</h3>
+
+                        <p data-en="A virtual tabletop application designed to track character statuses and conditions, as well as keep records of defeated monsters and NPCs encountered throughout tabletop RPG campaigns such as Dungeons & Dragons and Pathfinder 2e."
+                           data-fr="Une application de table virtuelle conçue pour suivre les états et les conditions des personnages, ainsi que pour répertorier les monstres vaincus et les personnages non-joueurs rencontrés au cours de campagnes de jeux de rôle sur table comme Donjons & Dragons et Pathfinder 2e.">
+                            A virtual tabletop application designed to track character statuses and conditions, as well as keep records of defeated monsters and NPCs encountered throughout tabletop RPG campaigns such as Dungeons & Dragons and Pathfinder 2e.
+                        </p>
+
+                        <span class="project-link"
+                              data-en="Discover project ↗"
+                              data-fr="Découvrir le projet ↗">
+                            Discover project ↗
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section-padding" id="contact">
+
+            <div class="contact-content">
+
+                <p class="eyebrow"
+                   data-en="LET'S CONNECT"
+                   data-fr="RESTONS EN CONTACT">LET'S CONNECT</p>
+
+                <h2 data-en="Let's connect and<br>create something meaningful<span>.</span>"
+                    data-fr="Échangeons et<br>créons quelque chose de significatif<span>.</span>">
+                    Let's connect and<br>create something meaningful<span>.</span>
+                </h2>
+
+                <p data-en="Interested in my work or simply want to connect?"
+                   data-fr="Mon travail vous intéresse ou vous souhaitez simplement échanger ?">
+                    Interested in my work or simply want to connect?
+                </p>
+
+                <a href="https://www.linkedin.com/in/mohammed-amine-elakraba/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="button button-light"
+                   data-en="Find me on LinkedIn ↗"
+                   data-fr="Retrouvez-moi sur LinkedIn ↗">
+                    Find me on LinkedIn ↗
+                </a>
+
+            </div>
+
+            <div class="contact-decoration">
+                ✳
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="footer-logo">My Portfolio<span>.</span></a>
+
+        <p class="copyright"
+           data-en="© 2026 Elakraba Mohammed Amine. All rights reserved."
+           data-fr="© 2026 Elakraba Mohammed Amine. Tous droits réservés.">
+            © 2026 Elakraba Mohammed Amine. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="scrip2.js"></script>
+
+</body>
+</html>
